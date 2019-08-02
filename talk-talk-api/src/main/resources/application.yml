@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      database: talk-db
+      host: localhost
+      port: 27017
+
+jwt:
+  accessTokenSecret: itos
+  accessTokenValiditySeconds: 300000
